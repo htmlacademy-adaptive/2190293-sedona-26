@@ -1,12 +1,171 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo logo">
+        <img class="logo__image" src="/" width="185" height="96" alt="City of Sedona">
+      </a>
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a href="">
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                Фото и видео
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="main-container__intro intro">
+        <h1 class="visibility-hidden">Седона – город в Аризоне</h1>
+        <svg class="intro__picture"></svg>
+      </section>
+      <section class="main-container__attraction depiction">
+        <h2 class="depiction__title title">Седона – небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p class="depiction__text text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      </section>
+      <section class="main-container__benefits promo-benefits">
+        <div class="promo-benefits__description description description--blue">
+          <h3 class="description__title title">
+            Настоящий городок
+          </h3>
+          <span class="description__number">
+            — №1 —
+          </span>
+          <p class="description__class">
+            Седона не аттракцион для туристов, там течет своя жизнь
+          </p>
+        </div>
+        <img class="description__img" src="#" width="520" height="260" alt="Настоящий городок">
+      </section>
+      <ul class="main-container__advice-list advice">
+        <li class="advice__item">
+          <svg class="advice__icon"></svg>
+          <h3 class="advice__title title">Жилье</h3>
+          <p class="advice__description">
+            Рекомендуем пожить в настоящем мотеле, все как в кино!
+          </p>
+        </li>
+        <li class="advice__item">
+          <svg class="advice__icon"></svg>
+          <h3 class="advice__title title">Еда</h3>
+          <p class="advice__description">
+            Всегда заказывайте фирменный бургер, вы не разочаруетесь!
+          </p>
+        </li>
+        <li class="advice__item">
+          <svg class="advice__icon"></svg>
+          <h3 class="advice__title title">Сувениры</h3>
+          <p class="advice__description">
+            Не только китайского, но и местного производства!
+          </p>
+        </li>
+      </ul>
+      <section class="main-container__benefits promo-benefits promo-benefits--text-right">
+        <div class="promo-benefits__description description description--blue">
+          <h3 class="description__title title">
+            Там есть мост дьявола
+          </h3>
+          <span class="description__number">
+            — №2 —
+          </span>
+          <p class="description__class">
+            Да, по нему можно пройти! Если вы осмелитесь, конечно
+          </p>
+        </div>
+        <img class="description__img" src="#" width="520" height="260" alt="Мост дьявола">
+      </section>
+      <section class="main-container__list-benefits benefits">
+         <div class="list-benefits__description description">
+          <h3 class="description__title title">
+            Небольшая площадь
+          </h3>
+          <span class="description__number">
+            — №3 —
+          </span>
+          <p class="description__class">
+            Все интересные места находятся очень близко
+          </p>
+        </div>
+        <div class="list-benefits__description description">
+          <h3 class="description__title title">
+            Красивая дорога
+          </h3>
+          <span class="description__number">
+            — №4 —
+          </span>
+          <p class="description__class">
+            Ехать в Седону из Лас-Вегаса совсем не скучно!
+          </p>
+        </div>
+        <div class="list-benefits__description description">
+          <h3 class="description__title title">
+            Мало туристов
+          </h3>
+          <span class="description__number">
+            — №5 —
+          </span>
+          <p class="description__class">
+            Большинство едет в Гранд Каньон и толпится там
+          </p>
+        </div>
+      </section>
+      <section class="main-container__find depiction">
+        <h2 class="depiction__title depiction depiction--accent">Седона – небольшой городок в аризоне, заслуживающий большего!</h2>
+        <p class="depiction__text text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+        <a class="depiction__button button" href="#">Найти гостиницу</a>
+      </section>
+      <div class="main-container__map">
+        <!-- google mapss -->
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__tag">#VISITSEDONA</div>
+      <ul class="main-footer__social-list social">
+        <li class="social__item">
+          <a class="social__link social-link social-link--vk" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social-link social-link--telegram" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social-link social-link--youtube" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+      </ul>
+      <div class="main-footer__developed developed">
+        <span class="developed__description"></span>
+        <svg class="developed__logo"></svg>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo logo">
+        <img class="logo__image" src="/" width="185" height="96" alt="City of Sedona">
+      </a>
+      <nav class="main-header__nav main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--current">
+              <a href="">
+                Главная
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                Фото и видео
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section class="main-container__intro intro">
+        <h1 class="visibility-hidden">Где отдохнуть в городе Седона?</h1>
+        <svg class="intro__picture"></svg>
+      </section>
+      <section class="main-container__attraction depiction">
+        <h2 class="depiction__title title">Фото и видео</h2>
+        <p class="depiction__text text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      </section>
+      <ul class="main-container__catalog catalog-list">
+        <li class="catalog-list card">
+          <img class="card__img" src="#" width="280" height="280" alt="Неродные просторы">
+          <div class="card__inform card-inform">
+            <h3 class="card-inform__title">Неродные просторы</h3>
+            <span class="card-inform__author">Автор фото: Борис</span>
+            <div class="card-inform__likes likes">
+              <svg class="likes__icon"></svg>
+              <span class="likes__count">1350</span>
+            </div>
+          </div>
+        </li>
+        <li class="catalog-list card">
+          <img class="card__img" src="#" width="280" height="280" alt="Местная растительность">
+          <div class="card__inform card-inform">
+            <h3 class="card-inform__title">Местная растительность</h3>
+            <span class="card-inform__author">Автор фото: Сергей</span>
+            <div class="card-inform__likes likes">
+              <svg class="likes__icon"></svg>
+              <span class="likes__count">143</span>
+            </div>
+          </div>
+        </li>
+        <li class="catalog-list card">
+          <img class="card__img" src="#" width="280" height="280" alt="Дорога на север">
+          <div class="card__inform card-inform">
+            <h3 class="card-inform__title">Дорога на север</h3>
+            <span class="card-inform__author">Автор фото: Петр</span>
+            <div class="card-inform__likes likes">
+              <svg class="likes__icon"></svg>
+              <span class="likes__count">96</span>
+            </div>
+          </div>
+        </li>
+        <li class="catalog-list card">
+          <img class="card__img" src="#" width="280" height="280" alt="Мост дьявола">
+          <div class="card__inform card-inform">
+            <h3 class="card-inform__title">Мост дьявола</h3>
+            <span class="card-inform__author">Автор фото: Антон</span>
+            <div class="card-inform__likes likes">
+              <svg class="likes__icon"></svg>
+              <span class="likes__count">254</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <section class="main-container__clarification depiction">
+        <h2 class="depiction__title title">Все еще сомневаетесь?</h2>
+        <p class="depiction__text text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      </section>
+      <video class="main-container__video video" width="280" height="177" controls="controls" poster="#">
+        <source src="video/#.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src="video/#.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="video/#.webm" type='video/webm; codecs="vp8, vorbis"'>
+        Тег video не поддерживается вашим браузером.
+        <svg class="video__play"></svg>
+        </video>
+    </main>
+    <footer class="main-footer">
+      <div class="main-footer__tag">#VISITSEDONA</div>
+      <ul class="main-footer__social-list social">
+        <li class="social__item">
+          <a class="social__link social-link social-link--vk" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social-link social-link--telegram" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social-link social-link--youtube" href="#">
+            <svg class="social-link__icon"></svg>
+          </a>
+        </li>
+      </ul>
+      <div class="main-footer__developed developed">
+        <span class="developed__description"></span>
+        <svg class="developed__logo"></svg>
+      </div>
+    </footer>
+  </body>
+</html>
